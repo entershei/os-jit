@@ -124,7 +124,7 @@ struct jit_function {
     jit_function() {
         has_error = true;
         numb1 = 1;
-        numb2 = 2;
+        numb2 = 5;
 
         struct stat stat_info;
         if (stat(FILE_NAME, &stat_info) == -1) {
